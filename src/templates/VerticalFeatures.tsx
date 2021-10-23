@@ -3,8 +3,8 @@ import { Section } from '../layout/Section';
 
 const VerticalFeatures = () => (
   <Section
-    title="My Smart Vision Aid"
-    description="An mobile phone application to help vision impaired people to lead more independent lives"
+    title="Introducting the VORA App"
+    description="An mobile phone application to help vision impaired people."
   >
     <VerticalFeatureRow
       title="Object Detection"
@@ -14,14 +14,14 @@ const VerticalFeatures = () => (
     />
     <VerticalFeatureRow
       title="Help from Volunteers"
-      description="In case AI object recoginition is not enough, my Vision Aid will call volunteers for help through Facetime."
+      description="Using Vora app, you can get also help from volunteers through Facetime."
       image="/assets/images/feature2.svg"
       imageAlt="Second feature alt text"
       reverse
     />
     <VerticalFeatureRow
-      title="Download My Vision Aid"
-      description="My Vision Aid is available for download from iOS app store and Google playstore."
+      title="Download VORA app"
+      description="Available soon for download from app store and Google playstore."
       image="/assets/images/feature3.svg"
       imageAlt="Third feature alt text"
     />

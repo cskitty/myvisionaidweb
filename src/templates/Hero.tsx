@@ -23,11 +23,12 @@ const Hero = () => (
       <HeroOneButton
         title={
           <>
-            {'Volunteer your free time to help\n'}
-            <span className="text-primary-500">My Vision Aid</span>
+            <span className="text-primary-500">
+              Vision Object Recoginition Aid
+            </span>
           </>
         }
-        description="Help vision impaired people to lead more independent lives."
+        description="Helping vision impaired people."
         button={
           <Link href="https://creativedesignsguru.com/category/nextjs/">
             <a>
