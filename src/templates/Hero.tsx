@@ -35,13 +35,6 @@ const Hero = () => (
             </a>
           </Link>
         }
-        button2={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
-            <a>
-              <Button xl>Register As Volunteer</Button>
-            </a>
-          </Link>
-        }
       />
     </Section>
   </Background>

@@ -10,6 +10,7 @@ type ICenteredFooterProps = {
 
 const CenteredFooter = (props: ICenteredFooterProps) => (
   <div className="text-center">
+    {props.logo}
     <div className="mt-8 text-sm">
       <FooterCopyright />
     </div>
