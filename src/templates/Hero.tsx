@@ -24,15 +24,15 @@ const Hero = () => (
         title={
           <>
             <span className="text-primary-500">
-              Vision Object Recoginition Aid
+              Visual Object Recognition Aid
             </span>
           </>
         }
-        description="Helping vision impaired people."
+        description="Helping the visually impaired."
         button={
           <Link href="/register">
             <a>
-              <Button xl>Register As Volunteer</Button>
+              <Button xl>Register as a Volunteer</Button>
             </a>
           </Link>
         }

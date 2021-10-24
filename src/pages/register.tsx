@@ -14,8 +14,8 @@ export default function ViewRegistrationPage() {
       <Meta title={AppConfig.title} description={AppConfig.description} />
       <Header />
       <Section
-        title="Thanks for helping out ..."
-        description="Please register your name, number to volunteer."
+        title="Register as a Vora Volunteer"
+        description="Please input your name, email, and phone number to volunteer."
       >
         <div className="w-full bg-white rounded shadow-lg p-8 m-4 md:max-w-sm md:mx-auto">
           <h1 className="block w-full text-center text-grey-darkest mb-6">
