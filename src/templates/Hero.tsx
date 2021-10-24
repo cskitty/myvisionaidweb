@@ -12,8 +12,8 @@ const Hero = () => (
     <Section yPadding="py-6">
       <NavbarTwoColumns logo={<Logo xl />}>
         <li>
-          <Link href="/">
-            <a>Sign in</a>
+          <Link href="/register">
+            <a>Volunteer</a>
           </Link>
         </li>
       </NavbarTwoColumns>
@@ -30,7 +30,7 @@ const Hero = () => (
         }
         description="Helping vision impaired people."
         button={
-          <Link href="https://creativedesignsguru.com/category/nextjs/">
+          <Link href="/register">
             <a>
               <Button xl>Register As Volunteer</Button>
             </a>
