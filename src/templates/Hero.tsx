@@ -28,7 +28,7 @@ const Hero = () => (
             </span>
           </>
         }
-        description="Helping the visually impaired."
+        description="Using deep learning and voice recognition to help the visually impaired."
         button={
           <Link href="/register">
             <a>
